@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(170, 255, 254), rgb(55, 145, 136));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 700px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black,-2px -2px 10px black;
+    padding: 20px;
+}
+h1{
+    color: hotpink;
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+}
+.dates label{
+    color: blue;
+    font-size:20px ;
+    font-weight: 400;
+}
+.dates input{
+    font-size:20px ;
+    border-radius: 2px;
+}
+.btn{
+    background-color: hotpink;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.age{
+    font-size: 30px;
+}
